@@ -89,3 +89,31 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+
+$('.perfume__slider').slick({
+  infinite: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow:
+  '<img class="arrow  arrow__left" src="img/parfume/prev.svg" alt="arrow"/>',
+nextArrow:
+  '<img class="arrow  arrow__right" src="img/parfume/next.svg" alt="arrow"/>',
+});
+$('.model__content-slider').slick({
+  infinite: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow:
+  '<img class="arrow  modern-arrow__left" src="img/parfume/prev.svg" alt="arrow"/>',
+nextArrow:
+  '<img class="arrow  modern-arrow__right" src="img/parfume/next.svg" alt="arrow"/>',
+});
+$('.variant__content-slider').slick({
+  infinite: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow:
+  '<img class="arrow  variant-arrow__left" src="img/parfume/prev.svg" alt="arrow"/>',
+nextArrow:
+  '<img class="arrow  variant-arrow__right" src="img/parfume/next.svg" alt="arrow"/>',
+});
